@@ -6,7 +6,7 @@ import { Providers } from "./providers";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Inventory Lab",
+  title: "MR3-lab",
   description: "Gerenciamento de Equipamentos",
 };
 
@@ -16,7 +16,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="pt-BR" className="dark">
+    <html lang="pt-BR">
       <body className={inter.className}>
         {/* 2. O Providers TEM que estar em volta do children */}
         <Providers>

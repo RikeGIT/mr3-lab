@@ -2,11 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+  background-color: #ffffff;
+  color: #000000;
+}
+
 *:focus {
   outline: none !important;
   box-shadow: none !important;
 }
-
 input:focus, textarea:focus, select:focus {
   outline: none;
   ring: 0;
